@@ -73,17 +73,17 @@
         <scala.compat.version>2.12</scala.compat.version>
         <scala.maven.plugin.version>4.4.0</scala.maven.plugin.version>
         <scalatest.version>3.2.1</scalatest.version>
-        <scalatest.maven.plugin.version>2.0.0</scalatest.maven.plugin.version>
+        <scalatest.maven.plugin.version>2.0.2</scalatest.maven.plugin.version>
         <scoverage.plugin.version>1.4.1</scoverage.plugin.version>
-        <spark.version>3.0.0</spark.version>
+        <spark.version>3.1.0</spark.version>
         <spark.compat.version>3.0</spark.compat.version>
-        <spark.cassandra.connector.version>3.0.0-beta</spark.cassandra.connector.version>
-        <spark.dynamodb.version>1.1.0</spark.dynamodb.version>
-        <spark.excel.version>0.13.5</spark.excel.version>
+        <spark.cassandra.connector.version>3.0.0</spark.cassandra.connector.version>
+        <spark.dynamodb.version>1.1.1</spark.dynamodb.version>
+        <spark.excel.version>0.13.6</spark.excel.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <project.timezone>UTC</project.timezone>
-        <postgresql.version>42.2.16</postgresql.version>
+        <postgresql.version>42.2.18</postgresql.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
         <maven.javadoc.plugin.version>3.2.0</maven.javadoc.plugin.version>
         <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
@@ -93,7 +93,7 @@
         <maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
         <maven.site.plugin.version>3.9.1</maven.site.plugin.version>
         <nexus.staging.maven.plugin.version>1.6.8</nexus.staging.maven.plugin.version>
-        <typesafe.config.version>1.4.0</typesafe.config.version>
+        <typesafe.config.version>1.4.1</typesafe.config.version>
     </properties>
 
     <dependencies>
@@ -383,7 +383,7 @@
         <profile>
             <id>spark_2.4</id>
             <properties>
-                <spark.version>2.4.5</spark.version>
+                <spark.version>2.4.7</spark.version>
                 <spark.compat.version>2.4</spark.compat.version>
                 <spark.cassandra.connector.version>2.5.1</spark.cassandra.connector.version>
                 <spark.dynamodb.version>1.0.4</spark.dynamodb.version>
